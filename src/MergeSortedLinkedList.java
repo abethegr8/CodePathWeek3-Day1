@@ -78,5 +78,26 @@ Evaluate:
 import java.util.LinkedList;
 
 public class MergeSortedLinkedList {
+    /*
+    public static ListNode mergeSortedList(ListNode head1, ListNode head2){
+        ListNode dummyHead = new ListNode(0);
+        ListNode current = dummyHead;
+
+        while(head1 != null && head2 != null){
+            if(head1.data <= head2.data){
+                current.next = head1;
+                head1 = head1.next;
+            }
+            else{
+                current.next = head2;
+                head2 = head2.next;
+            }
+            current = current.next;
+        }
+
+        current.next = head1 != null ? head1 : head2;
+
+        return dummyHead.next;
+    }   */
 
 }
